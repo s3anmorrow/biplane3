@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Bi-Plane! War of the Aces</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+        <script type="text/javascript" src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
+        <script type="text/javascript" src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
+        <script type="text/javascript" src="http://code.createjs.com/soundjs-0.5.2.min.js"></script>
+        <script type="text/javascript" src="src/managers/ndgmr.Collision.js"></script>
+        <script type="text/javascript" src="src/manifests/Manifest.js"></script>
+        <script type="text/javascript" src="src/managers/AssetManager.js"></script>
+        <script type="text/javascript" src="src/manifests/GamepadManifest.js"></script>
+        <script type="text/javascript" src="src/managers/GamepadManager.js"></script>
+        <script type="text/javascript" src="src/managers/ObjectPool.js"></script>
+        <script type="text/javascript" src="src/managers/Screen.js"></script>
+        <script type="text/javascript" src="src/game/Pilot.js"></script>
+        <script type="text/javascript" src="src/game/Plane.js"></script>
+        <script type="text/javascript" src="src/game/Tank.js"></script>
+        <script type="text/javascript" src="src/game/Jeep.js"></script>
+        <script type="text/javascript" src="src/game/Balloon.js"></script>
+        <script type="text/javascript" src="src/game/Bullet.js"></script>
+        <script type="text/javascript" src="src/game/Bunker.js"></script>
+        <script type="text/javascript" src="src/game/Factory.js"></script>
+        <script type="text/javascript" src="src/game/Cloud.js"></script>
+        <script type="text/javascript" src="src/game/Tower.js"></script>
+        <script type="text/javascript" src="src/game/Prison.js"></script>
+        <script type="text/javascript" src="src/game/Survivor.js"></script>
+        <script type="text/javascript" src="src/game/Landscape.js"></script>
+        <script type="text/javascript" src="src/managers/Scoreboard.js"></script>
+		<script type="text/javascript" src="src/game/Game.js"></script>
+	</head>
+    <body onload="onInit();">
+        <div style="position:relative;width:90%;max-width:800px;margin-left:auto;margin-right:auto;padding-top:10px;">
+            <canvas id="stage" style="width:800px;height:500px;border-width:1px;border-style:solid;margin-left:0px;margin-top:0px"></canvas>
+            <!--<div style="margin-top:10px;margin-left:10px;">Bi-Plane! War of the Aces : Sean Morrow [Jan 31, 2013] :)</div>
+            <div id="fps" style="margin-left:10px;"></div>-->
+        </div>
+    </body>
+</html>

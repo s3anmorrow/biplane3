@@ -1,0 +1,28 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background: #000000;
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 1280px;
+}
+
